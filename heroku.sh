@@ -1,8 +1,8 @@
 #!/bin/bash
-npm i
+sudo npm i -g @nestjs/cli
 npx rimraf dist
-npx nest build
-npm run migration:generate
-npm run migration:run
-ls -lha src
-node ./src/dist/main.js
+nest build
+npx typeorm migration:generate
+npx typeorm migration:run
+ls -lha dist
+node ./dist/main.js
