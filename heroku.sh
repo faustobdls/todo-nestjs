@@ -1,8 +1,8 @@
 #!/bin/bash
 npm i
-rimraf dist
-nest build
+npx rimraf dist
+npx nest build
 npm run migration:generate
 npm run migration:run
-ls -lha
+ls -lha src
 node ./src/dist/main.js
