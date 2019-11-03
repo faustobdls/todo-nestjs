@@ -1,7 +1,8 @@
 #!/bin/bash
-npm i -g @nestjs/cli
-npx rimraf dist
-nest build
+ls -lha ./
+# npm i -g @nestjs/cli
+# npx rimraf dist
+# nest build
 npx typeorm migration:generate
 npx typeorm migration:run
 ls -lha ./
