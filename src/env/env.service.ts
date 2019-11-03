@@ -24,7 +24,7 @@ export class EnvService {
         DB_TYPE: 'mysql',
         DB_HOST: 'localhost',
         DB_NAME: 'todonest',
-        DB_PORT: 3606,
+        DB_PORT: 3306,
         DB_USER: 'todoroot',
         DB_PASSWORD: '12345678',
     };
