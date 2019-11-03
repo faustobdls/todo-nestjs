@@ -5,4 +5,4 @@ nest build
 npm run migration:generate
 npm run migration:run
 ls -lha
-node /dist/main.js
+node ./src/dist/main.js
